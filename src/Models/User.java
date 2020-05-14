@@ -12,10 +12,10 @@ package Models;
 public class User {
     private String name;
     
-    public String getUserName() {
+    public String getName() {
         return this.name;
     }
-    public void setUserName(String name){
+    public void setName(String name){
         this.name = name;
     }
 }
